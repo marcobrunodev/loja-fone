@@ -18,6 +18,18 @@
   float: right;
 }
 
+.header-store [type="search"] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: inherit;
+  font-family: Arial, "Roboto", sans-serif;
+  font-size: 20px;
+  padding: 8px;
+  width: 358px;
+  margin-right: 65px;
+}
+
 .header-store .action {
   text-decoration: none;
   color: inherit;
