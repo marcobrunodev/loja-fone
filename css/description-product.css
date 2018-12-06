@@ -13,8 +13,17 @@
   margin-bottom: 28px;
 }
 
+.description-product > .item.-heart {
+  position: absolute;
+  transform: translateX(-100%);
+  top: 8px;
+  left: -47px;
+  cursor: pointer;
+}
+
 .description-product > .item.-star {
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .description-product > .item.-star + .item {
