@@ -1,9 +1,40 @@
 .container-store {
+  box-sizing: border-box;
   background-color: #e24647;
   width: 90%;
+  max-width: 1330px;
   padding: 55px 60px 165px 0;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translateX(-50%) translateY(-50%);
+}
+
+@media (max-width: 1470px), (max-height: 952px) {
+  .container-store {
+    position: static;
+    transform: none;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-height: 952px) {
+  .container-store {
+    max-width: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 955px) {
+  .container-store {
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .container-store {
+    padding-right: 16px;
+  }
 }
