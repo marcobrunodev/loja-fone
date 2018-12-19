@@ -21,6 +21,10 @@
   cursor: pointer;
 }
 
+.description-product > .item.-active {
+  background-color: #fff;
+}
+
 .description-product > .item.-star {
   margin-bottom: 10px;
   cursor: pointer;
