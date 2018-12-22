@@ -19,10 +19,8 @@
   top: 8px;
   left: -47px;
   cursor: pointer;
-}
-
-.description-product > .item.-active {
-  background-color: #fff;
+  width: 33px;
+  height: 29px;
 }
 
 .description-product > .item.-star {
@@ -31,11 +29,35 @@
 }
 
 .description-product .icon {
-  transition: transform 100ms linear;
+  transition: transform 50ms linear;
 }
 
 .description-product .icon:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
+}
+
+.description-product .item .icon.-active {
+  display: none;
+}
+
+.description-product > .item.-active .icon {
+  display: none;
+}
+
+.description-product > .item.-active .icon.-active {
+  display: block;
+}
+
+.description-product .star {
+  display: inline-block;
+}
+
+.description-product .star.-active > .icon {
+  display: none;
+}
+
+.description-product .star.-active > .-active {
+  display: block;
 }
 
 .description-product > .item.-star + .item {
