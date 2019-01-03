@@ -94,8 +94,20 @@
     padding-left: 30px;
     padding-right: 30px;
   }
+
   .header-store [type="search"] {
-    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-88%);
+    background-color: #fff;
+    color: #000;
+    transition: transform 200ms linear;
+  }
+
+  .header-store .-active[type="search"] {
+    transition: transform cubic-bezier(0, 0, 0.96, 1.26);
+    transform: translateX(0);
   }
 }
 
