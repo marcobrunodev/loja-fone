@@ -7,3 +7,9 @@ body {
   background-color: #252a34;
   background-image: linear-gradient(to bottom, #252a34, #ff2e63);
 }
+
+@media (max-width: 355px) {
+  body {
+    overflow-x: hidden;
+  }
+}

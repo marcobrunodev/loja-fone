@@ -32,3 +32,9 @@
     margin-right: auto;
   }
 }
+
+@media (max-width: 355px) {
+  .container-store {
+    overflow-x: hidden;
+  }
+}
