@@ -127,3 +127,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+input {
+  border-radius: 0;
+  appearance: none;
+  -webkit-appearance: none;
+}
