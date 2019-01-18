@@ -32,7 +32,6 @@
   border: 2px solid #fff;
   width: 218px;
   line-height: 56px;
-  margin-right: 38px;
 }
 
 .button-store.-second:hover,
@@ -48,6 +47,12 @@
   border: none;
   color: inherit;
   text-decoration: inherit;
+}
+
+@media (max-width: 1310px) {
+  .button-store.-second {
+    margin-right: 38px;
+  }
 }
 
 @media (max-width: 500px) {

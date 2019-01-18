@@ -19,6 +19,10 @@
   float: right;
 }
 
+.header-store .list {
+  display: inline;
+}
+
 .header-store .item {
   display: inline-block;
   margin-right: 60px;

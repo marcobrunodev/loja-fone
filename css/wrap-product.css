@@ -1,6 +1,6 @@
 .wrap-product {
   display: inline-block;
-  width: 554px;
+  width: 454px;
   vertical-align: middle;
   position: relative;
 }
@@ -9,6 +9,15 @@
   position: absolute;
   bottom: 0;
   transform: translateY(calc(100% + 98px));
+  width: 100%;
+}
+
+.wrap-product > .buttons > .button-store {
+  float: right;
+}
+
+.wrap-product > .buttons > .button-store.-second {
+  float: left;
 }
 
 @media (max-width: 1310px) {
@@ -24,5 +33,10 @@
     margin-right: auto;
     text-align: center;
     transform: none;
+  }
+
+  .wrap-product > .buttons > .button-store,
+  .wrap-product > .buttons > .button-store.-second {
+    float: none;
   }
 }

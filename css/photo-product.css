@@ -6,6 +6,20 @@
   border-top-right-radius: 150px;
   border-bottom-right-radius: 150px;
   margin-right: 157px;
+  padding-left: 100px;
+  position: relative;
+}
+
+.photo-product::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: -1;
+  transform: translateX(-100%);
+  box-shadow: inset 0 0 5px 0 rgba(50, 50, 50, 0.36);
 }
 
 @media (max-width: 1325px) {
@@ -21,6 +35,7 @@
     margin-right: 0;
     border-radius: 0;
     margin-bottom: 30px;
+    padding-left: 0;
   }
 }
 
